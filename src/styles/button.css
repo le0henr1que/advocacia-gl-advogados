@@ -1,5 +1,6 @@
-/* configuration primary button */
-.btn-primary {
+/* configuration primary button  */
+
+/* .btn-primary {
   @apply whitespace-nowrap flex text-[16px] leading-heading-6 font-bold items-center justify-center p-12 px-20 rounded-4 bg-brand-600 text-neutral-0 w-full;
 }
 .btn-primary:not(:disabled):hover {
@@ -18,9 +19,10 @@
 }
 .btn-primary-outlined:disabled {
   @apply border-[1px] border-brand-400 text-brand-400 cursor-not-allowed;
-}
+} */
 
 /* configuration secondary button */
+/* 
 .btn-secondary {
   @apply whitespace-nowrap flex text-[16px] leading-heading-6 font-bold items-center justify-center p-12 px-20 rounded-4 bg-neutral-800 text-neutral-0 w-full;
 }
@@ -55,4 +57,4 @@
 }
 .small {
   @apply h-[40px];
-}
+} */
