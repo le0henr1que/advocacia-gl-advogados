@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Layer from "../../public/24HoursLayer.svg";
 
 export const HeroBanner = () => {
   return (
@@ -23,7 +22,7 @@ export const HeroBanner = () => {
           </div>
           <div className="flex items-center text-tons-white gap-4">
             <Image
-              src={Layer}
+              src="./24hoursLayer.svg"
               height={20}
               width={20}
               alt="Ícone indicando 24 horas."
