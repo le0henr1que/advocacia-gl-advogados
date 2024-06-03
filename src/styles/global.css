@@ -7,10 +7,11 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Red Hat Display", sans-serif;
+  overflow-x: hidden; /* Adicione esta linha */
 }
 
 .grid {
-  @apply flex flex-col items-center rounded-8 border-neutral-100 border-solid border-[1px];
+  @apply w-10/12 mx-auto;
 }
 
 button {
