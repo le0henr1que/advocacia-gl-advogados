@@ -28,8 +28,8 @@ export const SpecialtySection = () => {
     },
   ];
   return (
-    <section className="min-w-screen h-auto bg-neutral-0 py-[80px] ">
-      <div className="w-10/12 mx-auto h-[150px] flex flex-col justify-start text-left ">
+    <section className="min-w-screen bg-neutral-0 py-[80px] ">
+      <div className="w-10/12 mx-auto flex flex-col justify-start text-left gap-5 ">
         <div
           className="
             flex 
@@ -66,13 +66,31 @@ export const SpecialtySection = () => {
               EXCELÊNCIA
             </p>
           </div>
-          <h2 className="text-[34px] font-red-hat-display font-bold text-brand-600 text-3xl leading-tight mb-12">
+          <h2 className="text-[40px] font-red-hat-display font-bold text-brand-600 text-3xl leading-tight mb-12">
             Nossas especialidades
           </h2>
-          <p className="text-[21px] font-red-hat-display text-neutral-1000 text-base font-normal leading-7">
+          <p className="text-[24px] font-red-hat-display text-neutral-1000 text-base font-normal leading-7">
             Somos especialistas em BPC/LOAS e Auxilios. Nossa missão é garantir
             que você receba o suporte do Estado que merece.
           </p>
+        </div>
+
+        <div className="flex flex-col md:flex-row gap-6 mt-[47px]">
+          {dataInformation.map((item) => (
+            <div
+              key={item.title}
+              className="flex flex-col h-auto max-[600px]:mx-auto w-11/12 md:w-4/12 p-[12px] border border-brand-600 border-solid rounded-md"
+            >
+              <img src={item.image} className="w-full mb-[12px]" />
+
+              <h2 className="text-left text-[#913133] font-red-hat-display text-[18px] font-bold leading-[26px]">
+                {item.title}
+              </h2>
+              <p className="text-left text-[#151515] font-red-hat-display text-[14px] font-semibold leading-[26px]">
+                {item.description}
+              </p>
+            </div>
+          ))}
         </div>
       </div>
 

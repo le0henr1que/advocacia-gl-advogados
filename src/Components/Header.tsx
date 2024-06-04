@@ -94,7 +94,7 @@ export const Header = () => {
             />
           </svg>
         </div>
-        <ul className="flex gap-32 font-bold text-tons-white hidden md:flex">
+        <ul className="items-center gap-32 font-bold text-tons-white hidden md:flex">
           <li className="cursor-pointer text-lg">
             <a href="/">Áreas de atuação</a>
           </li>
