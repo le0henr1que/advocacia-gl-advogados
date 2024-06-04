@@ -11,9 +11,19 @@ body {
 }
 
 .grid-default {
-  @apply w-10/12;
+  @apply w-10/12 mx-auto;
 }
 
 button {
   transition: all 0.4s ease;
+}
+
+.bg-gradient-brand {
+  background: 
+  /* linear-gradient( */
+      /* 0deg,
+      rgba(145, 49, 51, 0.9) 0%,
+      rgba(145, 49, 51, 0.9) 100% */
+    /* ), */ url("/Rectangle22694.png")
+    lightgray 0px -148.096px / 100.366% 147.85% no-repeat;
 }
