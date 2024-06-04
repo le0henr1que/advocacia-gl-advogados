@@ -7,7 +7,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Red Hat Display", sans-serif;
-  overflow-x: hidden; /* Adicione esta linha */
+  overflow-x: hidden;
 }
 
 .grid-default {

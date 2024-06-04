@@ -33,7 +33,7 @@ export const HeroBanner = () => {
         <div className="hidden xl:flex xl:w-1/2 h-full flex-col justify-end items-center">
           <img
             src={"./heroBannerWomen.svg"}
-            className="relative overflow-hidden w-[900px] "
+            className="relative w-[900px] h-11/12"
           />
         </div>
       </div>

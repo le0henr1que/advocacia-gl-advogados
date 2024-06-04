@@ -28,7 +28,7 @@ export const SpecialtySection = () => {
     },
   ];
   return (
-    <section className="min-w-screen h-[600px] bg-neutral-0 py-[80px] ">
+    <section className="min-w-screen h-auto bg-neutral-0 py-[80px] ">
       <div className="w-10/12 mx-auto h-[150px] flex flex-col justify-start text-left ">
         <div
           className="
@@ -80,15 +80,15 @@ export const SpecialtySection = () => {
         {dataInformation.map((item) => (
           <div
             key={item.title}
-            className="flex w-1/5 flex-col items-center h-[322px] p-3 gap-3 flex-grow border border-brand-600 rounded-md h-auto"
+            className="flex flex-col w-1/5 items-center h-auto p-3 gap-3 flex-grow border border-brand-600 rounded-md"
           >
             <div className="w-full">
               <img src={item.image} className="w-full" />
             </div>
-            <div className="self-stretch text-[#913133] font-red-hat-display text-[18px] font-bold leading-[26px]">
+            <div className="text-[#913133] font-red-hat-display text-[18px] font-bold leading-[26px]">
               {item.title}
             </div>
-            <div className="self-stretch text-[#151515] font-red-hat-display text-[14px] font-semibold leading-[26px]">
+            <div className="text-[#151515] font-red-hat-display text-[14px] font-semibold leading-[26px]">
               {item.description}
             </div>
           </div>
