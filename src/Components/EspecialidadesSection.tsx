@@ -76,7 +76,7 @@ export const SpecialtySection = () => {
         </div>
       </div>
 
-      <div className="grid mx-auto max-w-full h-[320px] flex gap-10">
+      {/* <div className="grid mx-auto max-w-full h-[320px] flex gap-10">
         {dataInformation.map((item) => (
           <div
             key={item.title}
@@ -93,7 +93,7 @@ export const SpecialtySection = () => {
             </div>
           </div>
         ))}
-      </div>
+      </div> */}
     </section>
   );
 };
