@@ -11,7 +11,7 @@ body {
 }
 
 .grid-default {
-  @apply w-10/12 mx-auto;
+  @apply w-[1200px] mx-auto;
 }
 
 button {

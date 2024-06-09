@@ -1,9 +1,9 @@
 export const AboutUs = () => {
   return (
-    <section className="grid-default mt-[89px] flex justify-between gap-[45px] items-start">
+    <div className="grid-default mt-[89px] flex justify-between gap-[45px] items-start">
       <div className="flex justify-center flex-shrink-0 ">
         <img src="./office.png" />
-        <div className="w-[406px] h-[78px] rounded-[8px] border-[9px] border-white absolute bg-white mt-[460px]">
+        {/* <div className="w-[406px] h-[78px] rounded-[8px] border-[9px] border-white absolute bg-white mt-[460px]">
           <div className="w-full h-full rounded-[8px] bg-[#913133] text-white flex justify-center items-start gap-[45px] p-[8px] p-[14px] p-[15px] p-[29px]">
             <div className="flex flex-col items-center justify-center ">
               <div className="secondary-heading-lg">50+</div>
@@ -22,7 +22,7 @@ export const AboutUs = () => {
               <div className="body-regular-sm">Clientes </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <div>
         <div className="body-medium-sm text-[#913133] flex items-center gap-[13px]">
@@ -44,6 +44,6 @@ export const AboutUs = () => {
           compromisso com a excelência.
         </div>
       </div>
-    </section>
+    </div>
   );
 };

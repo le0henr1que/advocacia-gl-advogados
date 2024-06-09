@@ -28,8 +28,8 @@ export const SpecialtySection = () => {
     },
   ];
   return (
-    <section className="min-w-screen bg-neutral-0 py-[80px] ">
-      <div className="w-10/12 mx-auto flex flex-col justify-start text-left gap-5 ">
+    <div className="min-w-screen bg-neutral-0 py-[80px] ">
+      <div className="grid-default mx-auto flex flex-col justify-start text-left gap-5 ">
         <div
           className="
             flex 
@@ -112,6 +112,6 @@ export const SpecialtySection = () => {
           </div>
         ))}
       </div> */}
-    </section>
+    </div>
   );
 };

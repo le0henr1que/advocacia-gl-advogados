@@ -2,8 +2,8 @@
 
 export const Header = () => {
   return (
-    <header className="min-w-full h-80 bg-brand-600 flex justify-center border-b-[1px] border-neutral-0">
-      <nav className="w-10/12 mx-auto flex justify-between items-center p-12">
+    <div className="min-w-full h-80 bg-brand-600 flex justify-center border-b-[1px] border-neutral-0 fixed z-[999]">
+      <nav className="grid-default mx-auto flex justify-between items-center p-12">
         <div>
           <svg
             width="51"
@@ -109,6 +109,6 @@ export const Header = () => {
           </li>
         </ul>
       </nav>
-    </header>
+    </div>
   );
 };

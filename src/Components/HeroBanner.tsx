@@ -1,10 +1,48 @@
-import Image from "next/image";
+import { motion, useAnimation } from "framer-motion";
+import { Element, useScroll } from "react-scroll";
+import React, { useEffect, useState } from "react";
+import { useInView } from "react-intersection-observer";
+
+const variants = {
+  hidden: { opacity: 0, x: -200 },
+  visible: { opacity: 1, x: 0 },
+};
 
 export const HeroBanner = () => {
+  const controls = useAnimation();
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(true);
+      window.removeEventListener("scroll", handleScroll);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (scrolled) {
+      controls.start("visible");
+    }
+  }, [controls, scrolled]);
   return (
-    <section className="h-[600px] w-screen bg-brand-600">
-      <div className="w-10/12 mx-auto h-[600px] bg-brand-600 flex justify-center items-center">
-        <div className="w-full w-1/1 xl:w-1/2 flex flex-col justify-center h-full gap-24 text-tons-white">
+    <div className="h-[600px] w-screen bg-brand-600">
+      <div
+        // ref={ref}
+        className="grid-default mx-auto h-[600px] bg-brand-600 flex justify-center items-center"
+      >
+        <motion.div
+          className="w-full w-1/1 xl:w-1/2 flex flex-col justify-center h-full gap-24 text-tons-white"
+          initial="hidden"
+          animate={controls}
+          variants={variants}
+          transition={{ duration: 0.5 }}
+        >
           <h1 className="text-[42px] font-bold leading-[50px] xl:text-left text-center">
             GL Advogadas Associadas: Direitos Civis e Familiares Especializado
           </h1>
@@ -20,16 +58,17 @@ export const HeroBanner = () => {
               Sobre nós
             </button>
           </div>
-          <div className="flex flex-col items-center text-tons-white gap-4 justify-center xl:justify-start sm:text-center xl:flex-row ">
-            <Image
+          <div className="flex flex-col items-center text-tons-white gap-4 justify-center xl:justify-start sm:text-center xl:flex-row flex-shrink-0">
+            <img
               src="./24hoursLayer.svg"
               height={20}
               width={20}
               alt="Ícone indicando 24 horas."
+              className="flex-shrink-0"
             />
             <p>Atendimento 24 horas, online ou presencial.</p>
           </div>
-        </div>
+        </motion.div>
         <div className="hidden xl:flex xl:w-1/2 h-full flex-col justify-end items-center">
           <img
             src={"./heroBannerWomen.svg"}
@@ -37,6 +76,6 @@ export const HeroBanner = () => {
           />
         </div>
       </div>
-    </section>
+    </div>
   );
 };

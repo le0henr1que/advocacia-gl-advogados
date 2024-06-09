@@ -1,6 +1,6 @@
 export const WhyChooseUs = () => {
   return (
-    <section className="h-[619px] w-screen bg-brand-600 bg-gradient-brand">
+    <div className="h-[619px] w-screen bg-brand-600 bg-gradient-brand">
       <div className="grid-default display flex flex-row justify-between items-center h-full ">
         <div>
           <div>
@@ -72,6 +72,6 @@ export const WhyChooseUs = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
