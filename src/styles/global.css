@@ -7,13 +7,18 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Red Hat Display", sans-serif;
+  overflow-x: hidden;
 }
 
-.grid {
-  @apply flex flex-col items-center rounded-8 border-neutral-100 border-solid border-[1px];
+.grid-default {
+  @apply w-[1200px] mx-auto;
 }
 
 button {
   transition: all 0.4s ease;
 }
-/* Small devices (landscape phones, 576px and up) */
+
+.bg-gradient-brand {
+  background: url("/Rectangle22694.png") lightgray 0px -148.096px / 100.366% 147.85%
+    no-repeat;
+}

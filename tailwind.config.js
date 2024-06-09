@@ -1,9 +1,6 @@
 module.exports = {
-  purge: [
-    "./src/pages/**/*.{js,ts,jsx,tsx}",
-    "./src/components/**/*.{js,ts,jsx,tsx}",
-  ],
-  darkMode: false, // or 'media' or 'class'
+  content: ["./src/**/*.{js,ts,jsx,tsx}", "./public/index.html"],
+
   theme: {
     extend: {
       keyframes: {
@@ -36,6 +33,47 @@ module.exports = {
         "brand-300": "#888599",
         "brand-400": "#737185",
         "brand-500": "#605E70",
+        "brand-600": "#913133",
+        "brand-700": "#3A3847",
+        "brand-800": "#282733",
+        "brand-900": "#17161E",
+        "brand-1000": "#17161E",
+
+        "neutral-100": "#DFE1E7",
+        "neutral-200": "#9D9AAD",
+        "neutral-300": "#888599",
+        "neutral-400": "#737185",
+        "neutral-500": "#605E70",
+        "neutral-600": "#4D4B5C",
+        "neutral-700": "#3A3847",
+        "neutral-800": "#282733",
+        "neutral-900": "#17161E",
+        "neutral-1000": "#040405",
+
+        "warning-dark": "#CA8A04",
+        "warning-darkest": "#A16207",
+        "warning-light": "#FACC15",
+        "warning-lighter": "#FCD34D",
+        "warning-main": "#EAB308",
+
+        "error-dark": "#3B35C4",
+        "error-darkest": "#2E299E",
+        "error-light": "#524BF2",
+        "error-lighter": "#5C54FF",
+        "error-main": "#ef4444",
+        "success-dark": "#059669",
+        "success-darkest": "#047857",
+        "success-light": "#34D399",
+        "success-main": "#10B981",
+        "success-lighter": "#6EE7B7",
+        "tons-black": "#047857",
+        "tons-white": "#FFFFFF",
+        "brand-100": "#f6f2f2",
+        "brand-1000": "#411617",
+        "brand-200": "#ede5e5",
+        "brand-300": "#dac8c8",
+        "brand-400": "#c5a6a6",
+        "brand-500": "#ad7a7b",
         "brand-600": "#913133",
         "brand-700": "#3A3847",
         "brand-800": "#282733",

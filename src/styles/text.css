@@ -1,10 +1,14 @@
-/* .secondary-heading-xl {
-  @apply text-[32px] font-bold;
+.secondary-heading-xl {
+  font-size: 32px !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: 50px !important;
+  @apply text-[32px];
 }
 
 .secondary-heading-lg {
   font-style: normal !important;
-  line-height: 42px !important;
+  line-height: 22px !important;
   @apply text-[28px] font-bold;
 }
 
@@ -13,7 +17,10 @@
 }
 
 .secondary-heading-sm {
-  @apply text-[20px] font-bold;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  @apply text-[20px];
 }
 
 .secondary-heading-xs {
@@ -32,6 +39,9 @@
 }
 
 .primary-heading-md {
+  font-style: normal;
+  line-height: 42px;
+  font-weight: 700;
   @apply text-[34px] font-bold;
 }
 
@@ -44,15 +54,22 @@
 }
 
 .body-regular-xxl {
-  @apply text-[22px] font-[400];
+  font-size: 22px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 30px !important;
 }
 .body-regular-xl {
-  @apply text-[20px] font-[400];
+  font-family: "Red Hat Display";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
 }
 .body-regular-lg {
   line-height: 26px;
   font-weight: 400 !important;
-  line-height: 30px !important;
+  line-height: 26px !important;
   @apply text-[18px] font-[400];
 }
 
@@ -63,6 +80,7 @@
 }
 
 .body-regular-sm {
+  font-weight: 400 !important;
   @apply text-[14px] font-[400];
 }
 
@@ -83,10 +101,14 @@
 }
 
 .body-medium-md {
-  @apply text-[16px] font-[400];
+  font-family: "Red Hat Display";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
 }
 .body-medium-sm {
-  @apply text-[14px] font-[400];
+  @apply text-[14px] font-[500];
 }
 
 .body-medium-xs {
