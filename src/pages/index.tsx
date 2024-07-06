@@ -40,7 +40,7 @@ export default function Home() {
       </div>
       {/* BANNER DE BAIXO */}
       <div className="w-full bg-[#913133] flex items-center justify-center h-auto lg:h-[597px]  border-b border-white bg-background text-white p-5">
-        <div className="w-full max-w-[1500px] min-w-[300px] mx-auto flex banner:justify-between lg:px-[120px] banner:items-center text-center justify-center banner:text-left">
+        <div className="w-full max-w-[1720px] min-w-[300px] mx-auto flex banner:justify-between lg:px-[120px] banner:items-center text-center justify-center banner:text-left">
           <div className="p-5 p-lateral:p-0 relative">
             <div className="Heading-Primary-Heading-2 text-white">
               Dra. Gabriela e Dra. Lucine Advogadas Associadas
