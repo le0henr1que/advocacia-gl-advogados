@@ -83,7 +83,7 @@ export default function Home() {
                 Áreas de atuação
               </div>
 
-              <div className="lg:grid lg:grid-cols-2 gap-3 flex flex-col">
+              <div className="lg:grid lg:grid-cols-2 lg:gap-[20px]  gap-3 flex flex-col">
                 <div className="border border-[#913133] rounded-4 h-[470px] w-full p-[12px] flex flex-col gap-[12px]">
                   <div className="w-full shrink-0 ">
                     <img
