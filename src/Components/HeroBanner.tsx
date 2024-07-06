@@ -31,24 +31,17 @@ export const HeroBanner = () => {
     }
   }, [controls, scrolled]);
   return (
-    <div className="h-[600px] w-screen bg-brand-600">
-      <div
-        // ref={ref}
-        className="grid-default mx-auto h-[600px] bg-brand-600 flex justify-center items-center"
-      >
-        <motion.div
-          className="w-full w-1/1 xl:w-1/2 flex flex-col justify-center h-full gap-24 text-tons-white"
-          initial="hidden"
-          animate={controls}
-          variants={variants}
-          transition={{ duration: 0.5 }}
-        >
-          <h1 className="text-[42px] font-bold leading-[50px] xl:text-left text-center">
-            GL Advogadas Associadas: Direitos Civis e Familiares Especializado
+    <div className="h-[600px] w-screen bg-brand-600 hero-banner-first">
+      <div className="grid-default mx-auto h-[600px] bg-brand-600 flex justify-center items-center hero-banner ">
+        <div className="w-full w-1/1 xl:w-1/2 flex flex-col justify-center h-full gap-24 text-tons-white">
+          <h1 className="text-[42px] font-bold leading-[50px] xl:text-left text-center hero-banner-text">
+            Dra. Gabriela e Dra. Luciene Advogadas Associadas
           </h1>
           <p className="text-[22px] leading-[30px] w-full text-center xl:text-left ">
-            Somos especialistas em BPC/LOAS e Auxilios. Nossa missão é garantir
-            que você receba o suporte do Estado que merece.
+            A nossa missão é defender seus direitos com dedicação, ética e
+            excelência, sempre comprometidas com a justiça e a integridade,
+            construindo confiança em cada caso, cujo objetivo é sempre o
+            sucesso.
           </p>
           <div className="flex gap-16 font-bold justify-center xl:justify-start">
             <button className="w-[155px] h-[48px] text-brand-600 rounded-md border-2 p-4 border-tons-white bg-tons-white">
@@ -58,7 +51,7 @@ export const HeroBanner = () => {
               Sobre nós
             </button>
           </div>
-          <div className="flex flex-col items-center text-tons-white gap-4 justify-center xl:justify-start sm:text-center xl:flex-row flex-shrink-0">
+          <div className="text-about flex flex-col items-center text-tons-white gap-4 justify-center xl:justify-start sm:text-center xl:flex-row flex-shrink-0">
             <img
               src="./24hoursLayer.svg"
               height={20}
@@ -66,9 +59,12 @@ export const HeroBanner = () => {
               alt="Ícone indicando 24 horas."
               className="flex-shrink-0"
             />
-            <p>Atendimento 24 horas, online ou presencial.</p>
+            <p>
+              Atendimento de segunda-feira a sexta-feira, das 9h às 18h. Exceto
+              feriados.
+            </p>
           </div>
-        </motion.div>
+        </div>
         <div className="hidden xl:flex xl:w-1/2 h-full flex-col justify-end items-center">
           <img
             src={"./heroBannerWomen.svg"}

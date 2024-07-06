@@ -3,61 +3,35 @@
 @import "tailwindcss/utilities";
 /* configuration primary button  */
 
-/* .btn-primary {
-  @apply whitespace-nowrap flex text-[16px] leading-heading-6 font-bold items-center justify-center p-12 px-20 rounded-4 bg-brand-600 text-neutral-0 w-full;
+.outline-large-default {
+  display: flex;
+  width: 149px;
+  padding: var(--12, 12px) var(--20, 20px);
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--4, 4px);
+  border: 1px solid var(--Tons-white, #fff);
+  text-align: center;
+  /* Buttons/Bold/Medium */
+  font-family: "Red Hat Display";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
 }
-.btn-primary:not(:disabled):hover {
-  @apply bg-brand-800;
+.fill-large-default {
+  display: flex;
+  width: 155px;
+  padding: var(--12, 12px) var(--20, 20px);
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--4, 4px);
+  background: var(--Tons-white, #fff);
+  text-align: center;
+  /* Buttons/Bold/Medium */
+  font-family: "Red Hat Display";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
 }
-.btn-primary:disabled {
-  @apply bg-brand-400 cursor-not-allowed;
-}
-
-.btn-primary-outlined {
-  @apply whitespace-nowrap flex text-[16px] leading-heading-6 font-bold items-center justify-center p-12 px-20 rounded-4 text-brand-600 w-full border-[1px] border-brand-600;
-}
-
-.btn-primary-outlined:not(:disabled):hover {
-  @apply bg-brand-100;
-}
-.btn-primary-outlined:disabled {
-  @apply border-[1px] border-brand-400 text-brand-400 cursor-not-allowed;
-} */
-
-/* configuration secondary button */
-/* 
-.btn-secondary {
-  @apply whitespace-nowrap flex text-[16px] leading-heading-6 font-bold items-center justify-center p-12 px-20 rounded-4 bg-neutral-800 text-neutral-0 w-full;
-}
-.btn-secondary:not(:disabled):hover {
-  @apply bg-neutral-1000;
-}
-.btn-secondary:disabled {
-  @apply bg-neutral-600 cursor-not-allowed;
-}
-
-.btn-secondary-outlined {
-  @apply whitespace-nowrap flex text-[16px] leading-heading-6 font-bold items-center justify-center p-12 px-20 rounded-4 text-neutral-900 w-full border-[1px] border-neutral-200;
-}
-
-.btn-secondary-outlined:not(:disabled):hover {
-  @apply bg-neutral-50;
-}
-.btn-secondary-outlined:disabled {
-  @apply border-[1px] border-neutral-100 text-brand-400 text-neutral-100 cursor-not-allowed;
-}
-
-.btn-text {
-  @apply whitespace-nowrap text-[16px] leading-heading-6 font-medium flex leading-heading-6 font-bold items-center justify-center;
-  transition: color 0.3s ease;
-}
-.btn-text:not(:disabled):hover {
-  @apply text-brand-600;
-}
-
-.large {
-  @apply h-[48px];
-}
-.small {
-  @apply h-[40px];
-} */

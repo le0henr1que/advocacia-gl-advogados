@@ -3,6 +3,9 @@ module.exports = {
 
   theme: {
     extend: {
+      spacing: {
+        3.5: "14px",
+      },
       keyframes: {
         float: {
           "0%": { transform: "translateY(0px)" },
@@ -26,6 +29,8 @@ module.exports = {
         md: "768px",
         lg: "992px",
         xl: "1600px",
+        banner: "1400px",
+        "p-lateral": "1536px",
       },
       colors: {
         "brand-100": "#F6F6FA",

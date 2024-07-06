@@ -2,7 +2,7 @@
 
 export const Header = () => {
   return (
-    <div className="min-w-full h-80 bg-brand-600 flex justify-center border-b-[1px] border-neutral-0 fixed z-[999]">
+    <div className="min-w-full h-80 bg-brand-600 flex justify-center border-b-[1px] border-neutral-0  z-[999]">
       <nav className="grid-default mx-auto flex justify-between items-center p-12">
         <div>
           <svg
@@ -98,11 +98,12 @@ export const Header = () => {
           <li className="cursor-pointer text-lg">
             <a href="/">Áreas de atuação</a>
           </li>
-          <li>
-            <a href="/">Diferenciais</a>
-          </li>
+
           <li>
             <a href="/">Sobre nós</a>
+          </li>
+          <li>
+            <a href="/">Diferenciais</a>
           </li>
           <li>
             <a href="/">Depoimentos</a>

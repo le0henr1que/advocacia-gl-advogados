@@ -136,3 +136,69 @@
 .body-semibold-xs {
   @apply text-[12px] font-semibold;
 }
+
+/* att aqyu: */
+.red-hat-display-bold {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.Heading-Primary-Heading-2 {
+  font-family: "Red Hat Display";
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+}
+.Body-Regular-Body-1 {
+  font-family: "Red Hat Display";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.Body-Semibold-Body-4 {
+  font-family: "Red Hat Display";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+.Heading-Primary-Heading-3 {
+  font-family: "Red Hat Display";
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+}
+.Heading-Primary-Heading-5 {
+  font-family: "Red Hat Display";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.Body-Regular-Body-5 {
+  font-family: "Red Hat Display";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+.Body-Regular-Body-3 {
+  /* Body/Regular/Body 3 */
+  font-family: "Red Hat Display";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+}
+.Body-Medium-Body-5 {
+  font-family: "Red Hat Display";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 157.143% */
+}

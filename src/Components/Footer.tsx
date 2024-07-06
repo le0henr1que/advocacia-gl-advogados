@@ -195,7 +195,8 @@ export const Footer = () => {
                   fill="white"
                 />
               </svg>
-              Atendimento 24 horas
+              Atendimento de segunda-feira a sexta-feira, das 9h às 18h. Exceto
+              feriados
             </div>
             <div className="mt-[15px] secondary-heading-sm">
               Fale conosco ainda hoje

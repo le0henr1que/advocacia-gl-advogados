@@ -17,7 +17,53 @@ body {
 button {
   transition: all 0.4s ease;
 }
-
+.hero-cards {
+  width: 1200px;
+  display: flex;
+}
+@media (max-width: 1200px) {
+  .hero-banner {
+    width: 100%;
+  }
+  .text-about {
+    text-align: center;
+  }
+  .cards-areas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  .title-areas {
+    text-align: center;
+    width: 100%;
+  }
+  .hero-cards {
+    padding: 0 1rem;
+  }
+  .about-office {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center !important;
+    gap: 1rem;
+  }
+  .text-about-office {
+    /* text-align: center; */
+  }
+  .text-about-second {
+    width: 100%;
+    padding: 0 1rem !important;
+  }
+  .card-about-office {
+    width: 100% !important;
+    padding: 0 1rem !important;
+  }
+  .hg-about-office {
+    height: 800px !important;
+  }
+}
 .bg-gradient-brand {
   background: url("/Rectangle22694.png") lightgray 0px -148.096px / 100.366% 147.85%
     no-repeat;

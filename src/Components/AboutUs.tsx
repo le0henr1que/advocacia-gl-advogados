@@ -32,16 +32,25 @@ export const AboutUs = () => {
 
         <div className="primary-heading-md text-[#913133]">Sobre nós</div>
         <div className="text-[#151B20] body-regular-xl mt-[12px] text-left">
-          A GL Advogadas é uma firma jurídica comprometida com a excelência e a
-          inovação no campo do direito. Nossa equipe é formada por profissionais
-          apaixonados e dedicados, que buscam sempre oferecer soluções jurídicas
-          sob medida para nossos clientes. Com uma abordagem centrada no cliente
-          e uma ampla gama de experiência em diversas áreas do direito, estamos
-          prontos para enfrentar os desafios mais complexos e garantir os
-          melhores resultados para aqueles que confiam em nossos serviços. Na GL
-          Advogadas, não apenas defendemos seus interesses, mas também
-          construímos parcerias duradouras baseadas na confiança, integridade e
-          compromisso com a excelência.
+          O escritório fora fundado em outubro de 2010 pela Dra. Gabriela Silva,
+          e estabeleceu-se inicialmente com foco na advocacia trabalhista com
+          defesa de empregados e empregadores, destacando-se pelo compromisso e
+          dedicação nessa área. Até 2019 a Dra. Gabriela atuou como única
+          proprietária, quando a Dra. Luciene Silva foi nomeada sócia, ampliando
+          o alcance e expertise.
+          <br /> Com a chegada da Dra. Luciene, expandiu-se os serviços para
+          abranger, além da área Trabalhista, também as áreas de Direito
+          Previdenciário, Cível e do Consumidor, atendendo tanto pessoas físicas
+          quanto jurídica. O escritório se diferencia pela especial atenção
+          dedicada aos clientes, buscando excelência em cada etapa do
+          atendimento e atuação, desde o primeiro contato até o término da ação.{" "}
+          <br />
+          Valoriza a transparência e a ética, assegurando que os clientes
+          mantenham um contato direto e fácil com as advogadas responsáveis por
+          seus casos. Cada questão é tratada com atenção e dedicação primordial,
+          refletindo o compromisso com a qualidade e a integridade profissional,
+          sempre com o foco na excelência de tudo o que é feito, para o alcance
+          do objetivo almejado.
         </div>
       </div>
     </div>

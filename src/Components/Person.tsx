@@ -40,21 +40,19 @@ export const Person = () => {
                 <hr className="border border-white  border-solid w-[126px] border-[1px]" />
                 SOBRE AS ADVOGADAS
               </div>
-              <div className="primary-heading-lg">Dra. Gabriela Ribeiro</div>
+              <div className="primary-heading-lg">Dra. Gabriela Silva</div>
             </div>
 
-            <div className="body-regular-xxl">
-              OAB/SC 45.332 Sócia-fundadora
-            </div>
+            <div className="body-regular-xxl">Sócia-fundadora</div>
             <div className="body-regular-lg">
-              Luane Ribeiro é uma advogada de destaque, reconhecida por sua
-              dedicação e excelência no campo jurídico. Com uma carreira sólida,
-              Luane conquistou o respeito e a confiança daqueles que buscam seus
-              serviços jurídicos. Seu compromisso com o cliente é evidente em
-              seu atendimento personalizado, sempre dedicado às necessidades
-              individuais de cada um. Ela prioriza uma comunicação clara e
-              transparente em todas as etapas do processo legal, garantindo que
-              seus clientes estejam sempre bem informados e confiantes.
+              Advogada. Bacharel em Direito pelo Centro Universitário Fieo -
+              Unifieo. Pós-Graduada em Direito do Trabalho pela mesma
+              universidade. Advogou por quatro anos na área de Direito do
+              Trabalho no escritório Robortella Advogados Associados,
+              representando empresas como Shell, Globo, White Martins, Método,
+              entre outras. Em 2010, fundou seu próprio escritório, com ênfase
+              na advocacia trabalhista. Além disso, ministra palestras sobre
+              Direito do Trabalho na Ordem dos Advogados do Brasil (OAB).
             </div>
           </div>
         </div>
@@ -82,21 +80,18 @@ export const Person = () => {
                 <hr className="border border-white  border-solid w-[126px] border-[1px]" />
                 SOBRE AS ADVOGADAS
               </div>
-              <div className="primary-heading-lg">Dra. Gabriela Ribeiro</div>
+              <div className="primary-heading-lg">Dra. Luciene Silva</div>
             </div>
 
-            <div className="body-regular-xxl">
-              OAB/SC 45.332 Sócia-fundadora
-            </div>
+            <div className="body-regular-xxl">Sócia</div>
             <div className="body-regular-lg">
-              Luane Ribeiro é uma advogada de destaque, reconhecida por sua
-              dedicação e excelência no campo jurídico. Com uma carreira sólida,
-              Luane conquistou o respeito e a confiança daqueles que buscam seus
-              serviços jurídicos. Seu compromisso com o cliente é evidente em
-              seu atendimento personalizado, sempre dedicado às necessidades
-              individuais de cada um. Ela prioriza uma comunicação clara e
-              transparente em todas as etapas do processo legal, garantindo que
-              seus clientes estejam sempre bem informados e confiantes.
+              Advogada. Bacharel em Direito pelo Centro Universitário Fie -
+              Unifie. Pós-graduanda em Direito Civil e Processo Civil no Centro
+              Universitário Fieo e Direito Previdenciário na Faculdade Legale.
+              Conta com vasta experiência em advocacia, trabalhando no
+              escritório desde 2010. Em 2019, tornou-se sócia do escritório,
+              ampliando o alcance e a expertise. Advoga com ênfase nas áreas do
+              Direito Previdenciário, Direito do Consumidor e Direito Civil.
             </div>
           </div>
         </div>
