@@ -52,17 +52,22 @@ export default function Home() {
               sucesso.
             </div>
             <div className="flex gap-[15px]  mt-[24px] banner:justify-start justify-center">
-              <button className="fill-large-default text-[#913133]">
-                Fale conosco
-              </button>
-              <button className="outline-large-default text-white">
-                Sobre nós
-              </button>
+              <a href="#contatos">
+                <button className="fill-large-default text-[#913133]">
+                  Fale conosco
+                </button>
+              </a>
+              <a href="#sobre-nos">
+                <button className="outline-large-default text-white">
+                  Sobre nós
+                </button>
+              </a>
             </div>
             <div className="mt-[24px] banner:flex banner:gap-[14px] flex flex-col tex-center justify-center items-center banner:flex banner:flex-row banner:items-start banner:justify-start">
               {/* <img src="./Icons.svg" alt="logo" /> */}
               <div className="Body-Semibold-Body-4">
-                Atendimento de segunda-feiras, das 9h às 18h (Exceto feriados)
+                Atendimento de segunda a sexta-feira, das 9h às 18h (exceto
+                feriados).
               </div>
             </div>
           </div>
@@ -84,7 +89,7 @@ export default function Home() {
               </div>
 
               <div className="lg:grid lg:grid-cols-2 lg:gap-[20px]  gap-3 flex flex-col">
-                <div className="border border-[#913133] rounded-4 h-[470px] w-full p-[12px] flex flex-col gap-[12px]">
+                <div className="border  border-[#913133] rounded-4 h-auto lg:h-[470px] w-full p-[12px] flex flex-col gap-[12px]">
                   <div className="w-full  shrink-0 overflow-hidden">
                     <img
                       src="./direito-trabalhista.jpeg"
@@ -106,7 +111,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="border border-[#913133] rounded-4 h-[470px] w-full p-[12px] flex flex-col gap-[12px]">
+                <div className="border border-[#913133] rounded-4 h-auto lg:h-[470px] w-full p-[12px] flex flex-col gap-[12px]">
                   <div className="w-full  shrink-0 overflow-hidden">
                     <img
                       src="./direito-previdenciario.png"
@@ -127,7 +132,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="border border-[#913133] rounded-4 h-[470px] w-full p-[12px] flex flex-col gap-[12px]">
+                <div className="border border-[#913133] rounded-4 h-auto lg:h-[470px] w-full p-[12px] flex flex-col gap-[12px]">
                   <div className="w-full  shrink-0 overflow-hidden">
                     <img
                       src="./direito-consumidor.jpg"
@@ -149,7 +154,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="border border-[#913133] rounded-4 h-[470px] w-full p-[12px] flex flex-col gap-[12px]">
+                <div className="border border-[#913133] rounded-4 h-auto lg:h-[470px] w-full p-[12px] flex flex-col gap-[12px]">
                   <div className="w-full  shrink-0 overflow-hidden">
                     <img
                       src="./direito-civil.jpg"
@@ -328,7 +333,7 @@ export default function Home() {
                       SOBRE AS ADVOGADAS
                     </div>
                     <div className="primary-heading-lg text-white">
-                      Dra. Gabriela
+                      Dra. Gabriela Silva
                     </div>
                   </div>
                   <div className="body-regular-xxl text-white">
