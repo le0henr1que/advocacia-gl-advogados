@@ -624,48 +624,7 @@ export default function Home() {
                             </defs>
                           </svg>
                         </a>
-                        {/* <a href="#">
-                          <svg
-                            width="45"
-                            height="44"
-                            viewBox="0 0 45 44"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <rect
-                              x="0.0484009"
-                              width="44"
-                              height="44"
-                              rx="5"
-                              fill="#913133"
-                              fill-opacity="0.08"
-                            />
-                            <g clip-path="url(#clip0_2323_1259)">
-                              <path
-                                d="M32.0434 32V31.9992H32.0484V24.6642C32.0484 21.0759 31.2759 18.3117 27.0809 18.3117C25.0642 18.3117 23.7109 19.4184 23.1584 20.4675H23.1001V18.6467H19.1226V31.9992H23.2642V25.3875C23.2642 23.6467 23.5942 21.9634 25.7501 21.9634C27.8742 21.9634 27.9059 23.95 27.9059 25.4992V32H32.0434Z"
-                                fill="#913133"
-                              />
-                              <path
-                                d="M12.3784 18.6475H16.5251V32H12.3784V18.6475Z"
-                                fill="#913133"
-                              />
-                              <path
-                                d="M14.4501 12C13.1242 12 12.0484 13.0758 12.0484 14.4017C12.0484 15.7275 13.1242 16.8258 14.4501 16.8258C15.7759 16.8258 16.8517 15.7275 16.8517 14.4017C16.8509 13.0758 15.7751 12 14.4501 12V12Z"
-                                fill="#913133"
-                              />
-                            </g>
-                            <defs>
-                              <clipPath id="clip0_2323_1259">
-                                <rect
-                                  width="20"
-                                  height="20"
-                                  fill="#913133"
-                                  transform="translate(12.0484 12)"
-                                />
-                              </clipPath>
-                            </defs>
-                          </svg>
-                        </a> */}
+
                         <a
                           href="https://wa.me/5511999999999"
                           target="_blank"
@@ -696,14 +655,11 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="flex justify-center items-center">
+                <div className="flex justify-center items-center w-[100%] ">
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.313737759123!2d-46.80365152467!3d-23.557172978802726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ceff9076484c13%3A0x18277df785905b12!2sGL%20Advogadas%20Associadas!5e0!3m2!1spt-BR!2sbr!4v1723074478965!5m2!1spt-BR!2sbr"
-                    width="600"
-                    height="450"
-                    // allowFullScreen=""
                     loading="lazy"
-                    className="border-0 w-full h-[400px] "
+                    className="border-0 w-[100%]  alg:w-full h-[400px] "
                   ></iframe>
                 </div>
               </div>
