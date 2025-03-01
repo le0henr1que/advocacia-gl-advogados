@@ -23,6 +23,11 @@ export default function Home() {
                     Diferenciais
                   </li>
                 </a>
+                <a href="#o-escritorio">
+                  <li className="text-white text-[16px] red-hat-display-bold">
+                    O escritório
+                  </li>
+                </a>
                 <a href="#sobre-nos">
                   <li className="text-white text-[16px] red-hat-display-bold">
                     Sobre nós
@@ -41,11 +46,14 @@ export default function Home() {
       {/* BANNER DE BAIXO */}
       <div className="w-full bg-[#913133] flex items-center justify-center h-auto lg:h-[597px]  border-b border-white bg-background text-white p-5">
         <div className="w-full max-w-[1720px] min-w-[300px] mx-auto flex banner:justify-between lg:px-[120px] banner:items-center text-center justify-center banner:text-left">
-          <div className="p-5 p-lateral:p-0 relative">
-            <div className="Heading-Primary-Heading-2 text-white">
-              Dra. Gabriela e Dra. Luciene Advogadas Associadas
+          <div className="p-5 p-lateral:p-0 relative ">
+            <div className="Heading-Primary-Heading-2 text-white hyphens-auto w-[550px]">
+              Dra. Gabriela e Dra. Luciene <br></br>
             </div>
-            <div className="Body-Regular-Body-1 mt-[16px]">
+            <span className="text-[35px] text-normal">
+              Advogadas Associadas
+            </span>
+            <div className="Body-Regular-Body-1 mt-[16px] text-justify hyphens-auto  w-[550px]">
               A nossa missão é defender seus direitos com dedicação, ética e
               excelência, sempre comprometidas com a justiça e a integridade,
               construindo confiança em cada caso, cujo objetivo é sempre o
@@ -66,13 +74,17 @@ export default function Home() {
             <div className="mt-[24px] banner:flex banner:gap-[14px] flex flex-col tex-center justify-center items-center banner:flex banner:flex-row banner:items-start banner:justify-start">
               {/* <img src="./Icons.svg" alt="logo" /> */}
               <div className="Body-Semibold-Body-4">
-                Atendimento de segunda a sexta-feira, das 9h às 18h (exceto
-                feriados).
+                Atendimento das 9h às 18h, em dias úteis.
               </div>
             </div>
           </div>
           <div className="shrink-0 hidden banner:flex">
-            <img src="./advs.png" alt="logo" className="shrink-0" />
+            <img
+              src="./Vector.png"
+              alt="logo"
+              className="shrink-0"
+              // width={400}
+            />
           </div>
         </div>
       </div>
@@ -101,7 +113,7 @@ export default function Home() {
                     <div className="Heading-Primary-Heading-5 text-[#913133] ">
                       Direito Trabalhista
                     </div>
-                    <div className="Body-Regular-Body-5 text-[#151515]">
+                    <div className="Body-Regular-Body-5 text-[#151515] text-justify hyphens-auto">
                       O direito do trabalho trata das regras e leis que regem a
                       relação entre empregadores e empregados. Ele estabelece
                       direitos e deveres para ambas as partes. Seu principal
@@ -123,7 +135,7 @@ export default function Home() {
                     <div className="Heading-Primary-Heading-5 text-[#913133] ">
                       Direitos Previdenciários
                     </div>
-                    <div className="Body-Regular-Body-5 text-[#151515]">
+                    <div className="Body-Regular-Body-5 text-[#151515] text-justify hyphens-auto">
                       O direito previdenciário é a legislação que trata da
                       seguridade social, ou seja, dos direitos relacionados à
                       aposentadoria, pensões, auxílios e benefícios sociais que
@@ -144,7 +156,7 @@ export default function Home() {
                     <div className="Heading-Primary-Heading-5 text-[#913133] ">
                       Direitos do Consumidor
                     </div>
-                    <div className="Body-Regular-Body-5 text-[#151515]">
+                    <div className="Body-Regular-Body-5 text-[#151515] text-justify hyphens-auto">
                       O direito do consumidor é a legislação que protege os
                       direitos dos consumidores, ou seja, as pessoas que compram
                       produtos ou contratam serviços. É o direito que assegura
@@ -166,7 +178,7 @@ export default function Home() {
                     <div className="Heading-Primary-Heading-5 text-[#913133] ">
                       Direito Civil
                     </div>
-                    <div className="Body-Regular-Body-5 text-[#151515]">
+                    <div className="Body-Regular-Body-5 text-[#151515] text-justify hyphens-auto">
                       O direito civil é a legislação que regula as relações
                       privadas entre pessoas, sejam físicas (indivíduos) ou
                       jurídicas (empresas). Isso inclui, entre outros, questões
@@ -186,7 +198,7 @@ export default function Home() {
       >
         <div className="w-full max-w-[1500px] min-w-[300px] mx-auto flex flex-col ">
           <div className="container mx-auto">
-            <div className="lg:grid lg:grid-cols-1 center text-center lg:items-center xl:gap-[117px] gap-[22px] flex flex-col">
+            <div className="lg:grid lg:grid-cols-1 center text-center lg:items-center xl:gap-[117px] gap-[22px] flex flex-col h-[250px]">
               <div>
                 <div className="center flex text-center justify-center">
                   <div className="flex items-center gap-[13px] Body-Medium-Body-5 text-white text-center center">
@@ -201,8 +213,9 @@ export default function Home() {
 
                 <div className="text-white Body-Regular-Body-1">
                   O nosso escritório se destaca pela sua dedicação incansável em
-                  fornecer serviços jurídicos de excelência, construídos sobre
-                  uma base sólida de conhecimento técnico e experiência prática.
+                  fornecer serviços jurídicos de excelência, <br></br>{" "}
+                  construídos sobre uma base sólida de conhecimento técnico e
+                  experiência prática.
                 </div>
               </div>
               {/* <div>
@@ -276,25 +289,21 @@ export default function Home() {
       {/* SOBRE NOS */}
       <div
         className="w-full bg-t flex items-center justify-center h-auto border-b border-white bg-background mt-[94px] p-5"
-        id="sobre-nos"
+        id="o-escritorio"
       >
         <div className="w-full max-w-[1500px] min-w-[300px] mx-auto flex flex-col ">
           <div className="container mx-auto">
             <div className="lg:grid lg:grid-cols-2 gap-[60px] items-center flex flex-col-reverse ">
               <div>
                 {" "}
-                <img src="./foto-escritorio.png" />
+                <img src="./Group39471.png" width={600} />
               </div>
-              <div>
-                <div className="Body-Medium-Body-5 text-[#913133]  flex items-center gap-[13px]">
-                  <hr className="border border-solid w-[126px] h-[1px] bg-[#913133] border-[#913133]" />
-                  O ESCRITÓRIO
-                </div>
+              <div className="mb-[6 0px]">
                 <div className="Heading-Primary-Heading-3 text-[#913133] mb-[7px] ">
-                  Sobre nós
+                  O Escritório
                 </div>
 
-                <div className="Body-Regular-Body-3">
+                <div className="Body-Regular-Body-1 text-justify hyphens-auto ">
                   O escritório fora fundado em outubro de 2010 pe la Dra.
                   Gabriela Silva, e estabeleceu-se inicialmente com foco na
                   advocacia trabalhista com defesa de empregados e empregadores,
@@ -321,7 +330,10 @@ export default function Home() {
         </div>
       </div>
       {/* SÓCIAS */}
-      <div className="w-full bg-[#913133] flex items-center justify-center h-auto lg:p-0 border-b border-white bg-background mt-[94px] p-5 ">
+      <div
+        id="sobre-nos"
+        className="w-full bg-[#913133] flex items-center justify-center h-auto lg:p-0 border-b border-white bg-background mt-[94px] p-5 "
+      >
         <div className="w-full max-w-[1500px] min-w-[300px] mx-auto flex flex-col ">
           <div className="container mx-auto">
             <div className="items-center flex flex-col">
@@ -330,7 +342,7 @@ export default function Home() {
                   <div>
                     <div className="body-medium-sm text-white flex items-center gap-[13px]">
                       <hr className="border border-white  border-solid w-[126px] border-[1px]" />
-                      SOBRE AS ADVOGADAS
+                      SOBRE NÓS
                     </div>
                     <div className="primary-heading-lg text-white">
                       Dra. Gabriela Silva
@@ -339,7 +351,7 @@ export default function Home() {
                   <div className="body-regular-xxl text-white">
                     Sócia-fundadora
                   </div>
-                  <div className="body-regular-lg text-white w-[80%]">
+                  <div className="body-regular-lg text-white w-[80%] text-justify hyphens-auto ">
                     Advogada. Bacharel em Direito pelo Centro Universitário Fieo
                     - Unifieo. Pós-Graduada em Direito do Trabalho pela mesma
                     universidade. Advogou por quatro anos na área de Direito do
@@ -351,27 +363,27 @@ export default function Home() {
                     Advogados do Brasil (OAB).
                   </div>
                 </div>
-                <div>
-                  <img src="/doctor1.png" className="w-full" />
-                </div>
+                {/* <div>
+                  <img src="/_MG_1965.JPG" className="w-full" width={683} />
+                </div> */}
               </div>
               <div className="lg:grid lg:grid-cols-2 lg:gap-0 gap-[20px] items-center flex flex-col-reverse lg:mt-0 mt-[80px]">
                 <div>
-                  <img src="/doctor2.png" className="w-full" />
+                  <img src="/_MG_2000.JPG" className="w-full" width={683} />
                 </div>
                 <div className="flex flex-col justify-end items-end lg:w-full w-[90%]  ">
                   <div className="lg:ml-[100px]">
                     <div>
                       <div className="body-medium-sm text-white flex items-center gap-[13px]">
                         <hr className="border border-white  border-solid w-[126px] border-[1px]" />
-                        SOBRE AS ADVOGADAS
+                        SOBRE NÓS
                       </div>
                       <div className="primary-heading-lg text-white">
                         Dra. Luciene Silva
                       </div>
                     </div>
                     <div className="body-regular-xxl text-white">Sócia</div>
-                    <div className="body-regular-lg text-white">
+                    <div className="body-regular-lg text-white text-justify hyphens-auto ">
                       Advogada. Bacharel em Direito pelo Centro Universitário
                       Fie - Unifie. Pós-graduanda em Direito Civil e Processo
                       Civil no Centro Universitário Fieo e Direito
@@ -406,109 +418,165 @@ export default function Home() {
                   </h2>
 
                   <div className="flex flex-col gap-[20px] mb-[100px]">
-                    <div className="flex gap-[12px] items-center">
-                      <div>
-                        <svg
-                          width="32"
-                          height="32"
-                          viewBox="0 0 32 32"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            opacity="0.2"
-                            d="M28.0007 7L16.0007 18L4.00067 7H28.0007Z"
-                            fill="#913133"
-                          />
-                          <path
-                            d="M28 7L16 18L4 7"
-                            stroke="#913133"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          />
-                          <path
-                            d="M4 7H28V24C28 24.2652 27.8946 24.5196 27.7071 24.7071C27.5196 24.8946 27.2652 25 27 25H5C4.73478 25 4.48043 24.8946 4.29289 24.7071C4.10536 24.5196 4 24.2652 4 24V7Z"
-                            stroke="#913133"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          />
-                          <path
-                            d="M13.8181 16L4.30829 24.7174"
-                            stroke="#913133"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          />
-                          <path
-                            d="M27.6918 24.7174L18.1818 16"
-                            stroke="#913133"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          />
-                        </svg>
-                      </div>
-                      <div>
-                        <div className="font-bold text-[#913133]">
-                          DIREITO TRARABALHISTA
+                    <div className="flex gap-[20px] items-center">
+                      <div className="flex gap-[12px] items-center">
+                        <div>
+                          <svg
+                            width="32"
+                            height="32"
+                            viewBox="0 0 32 32"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              opacity="0.2"
+                              d="M28.0007 7L16.0007 18L4.00067 7H28.0007Z"
+                              fill="#913133"
+                            />
+                            <path
+                              d="M28 7L16 18L4 7"
+                              stroke="#913133"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M4 7H28V24C28 24.2652 27.8946 24.5196 27.7071 24.7071C27.5196 24.8946 27.2652 25 27 25H5C4.73478 25 4.48043 24.8946 4.29289 24.7071C4.10536 24.5196 4 24.2652 4 24V7Z"
+                              stroke="#913133"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M13.8181 16L4.30829 24.7174"
+                              stroke="#913133"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M27.6918 24.7174L18.1818 16"
+                              stroke="#913133"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
                         </div>
-                        <div className="font-semibold">
-                          gabriela@gabrielasilva.com.br
+                        <div>
+                          <div className="font-bold text-[#913133]">
+                            DIREITO TRARABALHISTA
+                          </div>
+                          <div className="font-semibold">
+                            gabriela@gabrielasilva.com.br
+                          </div>
                         </div>
                       </div>
-                    </div>
-                    <div className="flex gap-[12px] items-center">
-                      <div>
-                        <svg
-                          width="32"
-                          height="32"
-                          viewBox="0 0 32 32"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            opacity="0.2"
-                            d="M28.0007 7L16.0007 18L4.00067 7H28.0007Z"
-                            fill="#913133"
-                          />
-                          <path
-                            d="M28 7L16 18L4 7"
-                            stroke="#913133"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          />
-                          <path
-                            d="M4 7H28V24C28 24.2652 27.8946 24.5196 27.7071 24.7071C27.5196 24.8946 27.2652 25 27 25H5C4.73478 25 4.48043 24.8946 4.29289 24.7071C4.10536 24.5196 4 24.2652 4 24V7Z"
-                            stroke="#913133"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          />
-                          <path
-                            d="M13.8181 16L4.30829 24.7174"
-                            stroke="#913133"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          />
-                          <path
-                            d="M27.6918 24.7174L18.1818 16"
-                            stroke="#913133"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          />
-                        </svg>
-                      </div>
-                      <div>
-                        <div className="font-bold text-[#913133]">
-                          Direito Cível, Previdenciário e Consumidor
+                      <div className="flex gap-[12px] items-center">
+                        <div>
+                          <svg
+                            width="32"
+                            height="32"
+                            viewBox="0 0 32 32"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              opacity="0.2"
+                              d="M28.0007 7L16.0007 18L4.00067 7H28.0007Z"
+                              fill="#913133"
+                            />
+                            <path
+                              d="M28 7L16 18L4 7"
+                              stroke="#913133"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M4 7H28V24C28 24.2652 27.8946 24.5196 27.7071 24.7071C27.5196 24.8946 27.2652 25 27 25H5C4.73478 25 4.48043 24.8946 4.29289 24.7071C4.10536 24.5196 4 24.2652 4 24V7Z"
+                              stroke="#913133"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M13.8181 16L4.30829 24.7174"
+                              stroke="#913133"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M27.6918 24.7174L18.1818 16"
+                              stroke="#913133"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
                         </div>
-                        <div className="font-semibold">
-                          luciene@gabrielasilva.com.br
+                        <div>
+                          <div className="font-bold text-[#913133] UpperCase break-words word-wrap whitespace-nowrap">
+                            {" "}
+                            DIREITO CÍVEL E CONSUMIDOR
+                          </div>
+                          <div className="font-semibold">
+                            luciene@gabrielasilva.com.br
+                          </div>
+                        </div>
+                      </div>
+                      <div className="flex gap-[12px] items-center">
+                        <div>
+                          <svg
+                            width="32"
+                            height="32"
+                            viewBox="0 0 32 32"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              opacity="0.2"
+                              d="M28.0007 7L16.0007 18L4.00067 7H28.0007Z"
+                              fill="#913133"
+                            />
+                            <path
+                              d="M28 7L16 18L4 7"
+                              stroke="#913133"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M4 7H28V24C28 24.2652 27.8946 24.5196 27.7071 24.7071C27.5196 24.8946 27.2652 25 27 25H5C4.73478 25 4.48043 24.8946 4.29289 24.7071C4.10536 24.5196 4 24.2652 4 24V7Z"
+                              stroke="#913133"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M13.8181 16L4.30829 24.7174"
+                              stroke="#913133"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M27.6918 24.7174L18.1818 16"
+                              stroke="#913133"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                        </div>
+                        <div>
+                          <div className="font-bold text-[#913133]">
+                            DIREITO PREVIDENCIÁRIO
+                          </div>
+                          <div className="font-semibold">
+                            luciene@gabrielasilva.com.br
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -575,6 +643,25 @@ export default function Home() {
                         <div className="font-semibold">(11) 3591-6149</div>
                       </div>
                     </div>
+                    <div className="flex gap-[12px] items-center">
+                      <div>
+                        <svg
+                          width="32"
+                          height="32"
+                          viewBox="0 0 157 157"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M156.254 118.215C154.429 116.271 147.986 110.523 136.141 102.919C124.209 95.2488 115.409 90.4662 112.885 89.3509C112.663 89.2522 112.418 89.216 112.176 89.2462C111.935 89.2764 111.706 89.3718 111.515 89.5222C107.449 92.6932 100.603 98.5177 100.236 98.8323C97.8659 100.864 97.8659 100.864 95.9256 100.231C92.5134 99.112 81.9132 93.4833 72.6765 84.2256C63.4399 74.968 57.521 64.1056 56.4022 60.6969C55.7624 58.7531 55.7624 58.7531 57.8007 56.3827C58.1153 56.0157 63.9433 49.1703 67.1143 45.1078C67.2646 44.9165 67.3601 44.6879 67.3902 44.4464C67.4204 44.2049 67.3842 43.9598 67.2856 43.7374C66.1703 41.2097 61.3876 32.4135 53.7172 20.4814C46.1027 8.64009 40.3621 2.19679 38.4183 0.371825C38.2399 0.203499 38.0195 0.0864015 37.7801 0.0328719C37.5408 -0.0206577 37.2914 -0.00863722 37.0583 0.0676656C30.2636 2.40275 23.7078 5.38216 17.4802 8.96522C11.4684 12.46 5.77682 16.4786 0.471709 20.9743C0.286521 21.1317 0.14768 21.3366 0.0700768 21.567C-0.00752657 21.7973 -0.0209649 22.0444 0.0312021 22.2818C0.761886 25.687 4.25448 39.9022 15.0924 59.5922C26.1505 79.6877 33.814 89.9837 50.0533 106.167C66.2927 122.351 76.9138 130.475 97.0303 141.534C116.72 152.371 130.942 155.868 134.341 156.591C134.579 156.643 134.826 156.629 135.057 156.552C135.288 156.474 135.493 156.336 135.652 156.151C140.147 150.846 144.164 145.154 147.657 139.142C151.24 132.914 154.219 126.359 156.555 119.564C156.63 119.333 156.641 119.086 156.588 118.848C156.535 118.611 156.42 118.392 156.254 118.215Z"
+                            fill="#913133"
+                          />
+                        </svg>
+                      </div>
+                      <div>
+                        <div className="font-semibold">(11) 99022-4279</div>
+                      </div>
+                    </div>
                   </div>
 
                   <div className="mt-[220px]">
@@ -631,7 +718,7 @@ export default function Home() {
                         </a>
 
                         <a
-                          href="https://wa.me/5511999999999"
+                          href="https://wa.me/5511990224279"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -660,13 +747,20 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="flex justify-center items-center w-[100%] ">
+                {/* <div className="flex justify-center items-center w-[100%] ">
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.313737759123!2d-46.80365152467!3d-23.557172978802726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ceff9076484c13%3A0x18277df785905b12!2sGL%20Advogadas%20Associadas!5e0!3m2!1spt-BR!2sbr!4v1723074478965!5m2!1spt-BR!2sbr"
                     loading="lazy"
                     className="border-0 w-[100%]  alg:w-full h-[400px] "
                   ></iframe>
-                </div>
+                </div> */}
+              </div>
+              <div className="flex justify-center items-center w-[100%] ">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.313737759123!2d-46.80365152467!3d-23.557172978802726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ceff9076484c13%3A0x18277df785905b12!2sGL%20Advogadas%20Associadas!5e0!3m2!1spt-BR!2sbr!4v1723074478965!5m2!1spt-BR!2sbr"
+                  loading="lazy"
+                  className="border-0 w-[100%]  alg:w-full h-[400px] "
+                ></iframe>
               </div>
             </div>
           </div>
@@ -678,6 +772,16 @@ export default function Home() {
       <div className="w-full bg-[#913133] flex items-center justify-center h-auto border-b border-white bg-background mt-[94px] p-5">
         <div className="w-full max-w-[1500px] min-w-[300px] mx-auto flex flex-col ">
           <div className="container mx-auto">
+            <div className=" flex justify-between items-center w-[100%] h-[50px] flex-col">
+              <img
+                src="./WhiteLogo.svg"
+                alt="logo"
+                className="w-[51px] h-[50px]"
+              />
+              <span className="text-2xl text-[#FFF] italic font-serif text-gray-700 whitespace-nowrap">
+                Desde 2010
+              </span>
+            </div>
             {/* <div className="lg:grid lg:grid-cols-4 gap-[60px] items-center flex flex-col-reverse ">
               <div>
                 {" "}
