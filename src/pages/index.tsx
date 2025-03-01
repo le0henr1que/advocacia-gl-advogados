@@ -363,9 +363,9 @@ export default function Home() {
                     Advogados do Brasil (OAB).
                   </div>
                 </div>
-                {/* <div>
+                <div>
                   <img src="/_MG_1965.JPG" className="w-full" width={683} />
-                </div> */}
+                </div>
               </div>
               <div className="lg:grid lg:grid-cols-2 lg:gap-0 gap-[20px] items-center flex flex-col-reverse lg:mt-0 mt-[80px]">
                 <div>
@@ -778,7 +778,7 @@ export default function Home() {
                 alt="logo"
                 className="w-[51px] h-[50px]"
               />
-              <span className="text-2xl text-[#FFF] italic font-serif text-gray-700 whitespace-nowrap">
+              <span className="text-2xl text-[#FFFF] italic font-serif text-gray-700 whitespace-nowrap">
                 Desde 2010
               </span>
             </div>
