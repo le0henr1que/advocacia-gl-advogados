@@ -778,7 +778,7 @@ export default function Home() {
                 alt="logo"
                 className="w-[51px] h-[50px]"
               />
-              <span className="text-2xl text-[#FFFF] italic font-serif text-gray-700 whitespace-nowrap">
+              <span className="text-2xl text-[#FFFF] italic font-serif  whitespace-nowrap">
                 Desde 2010
               </span>
             </div>
