@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <>
-      <div className="w-full bg-[#913133] flex items-center justify-center h-[84px] border-b border-white bg-background p-5">
+      <div className="w-full bg-[#913133] flex items-center justify-center h-[94px] border-b border-white bg-background p-5">
         <header className="w-full max-w-[1500px] min-w-[300px] mx-auto flex justify-between items-center ">
           <div className=" flex justify-between flex-col items-center gap-[10px]">
             <img
@@ -9,7 +9,10 @@ export default function Home() {
               alt="logo"
               className="w-[41px] h-[40px]"
             />
-            <span className="text-1xl text-[#FFFF] italic font-serif  whitespace-nowrap">
+            <span
+              className="text-[18px] text-[#FFFF] italic font-serif whitespace-nowrap"
+              style={{ fontFamily: "Dancing Script, serif" }}
+            >
               Desde 2010
             </span>
           </div>
@@ -105,7 +108,7 @@ export default function Home() {
                 <div className="border  border-[#913133] rounded-4 h-auto lg:h-[470px] w-full p-[12px] flex flex-col gap-[12px]">
                   <div className="w-full  shrink-0 overflow-hidden">
                     <img
-                      src="./service-02-980x340.webp"
+                      src="./647e0d78a3c34.webp"
                       alt="logo"
                       className="w-full h-[300px] object-cover"
                     />
@@ -127,7 +130,7 @@ export default function Home() {
                 <div className="border border-[#913133] rounded-4 h-auto lg:h-[470px] w-full p-[12px] flex flex-col gap-[12px]">
                   <div className="w-full  shrink-0 overflow-hidden">
                     <img
-                      src="./direito-previdenciario.webp"
+                      src="./iStock-619515616.webp"
                       alt="logo"
                       className="w-full h-[300px] object-cover"
                     />
@@ -727,39 +730,18 @@ export default function Home() {
                 alt="logo"
                 className="w-[51px] h-[50px]"
               />
-              <span className="text-2xl text-[#FFFF] italic font-serif  whitespace-nowrap">
+              <span
+                className="text-[18px] text-[#FFFF] italic font-serif whitespace-nowrap"
+                style={{ fontFamily: "Dancing Script, serif" }}
+              >
                 Desde 2010
               </span>
             </div>
-            {/* <div className="lg:grid lg:grid-cols-4 gap-[60px] items-center flex flex-col-reverse ">
-              <div>
-                {" "}
-                <img
-                  src="./WhiteLogo.svg"
-                  alt="logo"
-                  className="w-[80px] h-[78px]"
-                />
-                <div className="text-left p-4 text-white mt-[16px]">
-                  <blockquote>
-                    “A justiça é o vínculo das sociedades humanas; as leis
-                    emanadas da justiça são a alma de um povo.”
-                    <footer className="text-right mt-2">
-                      — Juan Luis Vives
-                    </footer>
-                  </blockquote>
-                </div>
-              </div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </div> */}
+
             <div
               className="max-w-[1500px] min-w-[300px]  lg:flex lg:flex-row text-center flex-col gap-[20px] justify-between h-[79px] items-center text-white body-medium-md  mt-[41px]"
               style={{ borderTop: "1px solid white" }}
             >
-              <div>
-                Projetado por Felipe Silva e Desenvolvido por Leonardo Henrique
-              </div>
               <div>© 2024 GL Advogadas. Todos os direitos reservados.</div>
             </div>
           </div>
