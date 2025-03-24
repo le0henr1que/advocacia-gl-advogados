@@ -3,12 +3,15 @@ export default function Home() {
     <>
       <div className="w-full bg-[#913133] flex items-center justify-center h-[84px] border-b border-white bg-background p-5">
         <header className="w-full max-w-[1500px] min-w-[300px] mx-auto flex justify-between items-center ">
-          <div className="flex justify-between items-center w-[51px] h-[50px]">
+          <div className=" flex justify-between flex-col items-center gap-[10px]">
             <img
               src="./WhiteLogo.svg"
               alt="logo"
-              className="w-[51px] h-[50px]"
+              className="w-[41px] h-[40px]"
             />
+            <span className="text-1xl text-[#FFFF] italic font-serif  whitespace-nowrap">
+              Desde 2010
+            </span>
           </div>
           <div className="hidden md:flex">
             <nav className="flex justify-between items-center">
@@ -72,19 +75,13 @@ export default function Home() {
               </a>
             </div>
             <div className="mt-[24px] banner:flex banner:gap-[14px] flex flex-col tex-center justify-center items-center banner:flex banner:flex-row banner:items-start banner:justify-start">
-              {/* <img src="./Icons.svg" alt="logo" /> */}
               <div className="Body-Semibold-Body-4">
                 Atendimento das 9h às 18h, em dias úteis.
               </div>
             </div>
           </div>
           <div className="shrink-0 hidden banner:flex">
-            <img
-              src="./Vector.png"
-              alt="logo"
-              className="shrink-0"
-              // width={400}
-            />
+            <img src="./Vector.png" alt="logo" className="shrink-0" />
           </div>
         </div>
       </div>
@@ -104,7 +101,7 @@ export default function Home() {
                 <div className="border  border-[#913133] rounded-4 h-auto lg:h-[470px] w-full p-[12px] flex flex-col gap-[12px]">
                   <div className="w-full  shrink-0 overflow-hidden">
                     <img
-                      src="./direito-trabalhista.jpeg"
+                      src="./service-02-980x340.webp"
                       alt="logo"
                       className="w-full h-[300px] object-cover"
                     />
@@ -126,7 +123,7 @@ export default function Home() {
                 <div className="border border-[#913133] rounded-4 h-auto lg:h-[470px] w-full p-[12px] flex flex-col gap-[12px]">
                   <div className="w-full  shrink-0 overflow-hidden">
                     <img
-                      src="./direito-previdenciario.png"
+                      src="./direito-previdenciario.webp"
                       alt="logo"
                       className="w-full h-[300px] object-cover"
                     />
@@ -147,7 +144,7 @@ export default function Home() {
                 <div className="border border-[#913133] rounded-4 h-auto lg:h-[470px] w-full p-[12px] flex flex-col gap-[12px]">
                   <div className="w-full  shrink-0 overflow-hidden">
                     <img
-                      src="./direito-consumidor.jpg"
+                      src="./636d05f915b737ba8d7c224a_afya-vest-direito-consumidor-areas-de-atuacao.jpg"
                       alt="logo"
                       className="w-full h-[300px] object-cover"
                     />
@@ -169,7 +166,7 @@ export default function Home() {
                 <div className="border border-[#913133] rounded-4 h-auto lg:h-[470px] w-full p-[12px] flex flex-col gap-[12px]">
                   <div className="w-full  shrink-0 overflow-hidden">
                     <img
-                      src="./direito-civil.jpg"
+                      src="./rhHvzNxq2vK90KCX7Tq9X1BW5P6ZVTd1.jpg"
                       alt="logo"
                       className="w-full h-[300px] object-cover"
                     />
@@ -304,7 +301,7 @@ export default function Home() {
                 </div>
 
                 <div className="Body-Regular-Body-1 text-justify hyphens-auto ">
-                  O escritório fora fundado em outubro de 2010 pe la Dra.
+                  O escritório fora fundado em outubro de 2010 pela Dra.
                   Gabriela Silva, e estabeleceu-se inicialmente com foco na
                   advocacia trabalhista com defesa de empregados e empregadores,
                   destacando-se pelo compromisso e dedicação nessa área. Até
@@ -313,7 +310,7 @@ export default function Home() {
                   expertise. Com a chegada da Dra. Luciene, expandiu-se os
                   serviços para abranger, além da área Trabalhista, também as
                   áreas de Direito Previdenciário, Cível e do Consumidor,
-                  atendendo tanto pessoas físicas quanto jurídica. O escritório
+                  atendendo tanto pessoas físicas quanto jurídicas. O escritório
                   se diferencia pela especial atenção dedicada aos clientes,
                   buscando excelência em cada etapa do atendimento e atuação,
                   desde o primeiro contato até o término da ação. Valoriza a
@@ -417,7 +414,7 @@ export default function Home() {
                     Contato
                   </h2>
 
-                  <div className="flex flex-col gap-[20px] mb-[100px]">
+                  <div className="flex flex-col gap-[30px] mb-[100px]">
                     <div className="flex gap-[20px] items-center">
                       <div className="flex gap-[12px] items-center">
                         <div>
@@ -472,6 +469,7 @@ export default function Home() {
                           </div>
                         </div>
                       </div>
+                      <div className="border-[1px] bg-black h-[50px]"></div>
                       <div className="flex gap-[12px] items-center">
                         <div>
                           <svg
@@ -526,6 +524,7 @@ export default function Home() {
                           </div>
                         </div>
                       </div>
+                      <div className="border-[1px] bg-black h-[50px]"></div>
                       <div className="flex gap-[12px] items-center">
                         <div>
                           <svg
@@ -659,7 +658,7 @@ export default function Home() {
                         </svg>
                       </div>
                       <div>
-                        <div className="font-semibold">(11) 99022-4279</div>
+                        <div className="font-semibold">(11) 9 9022-4279</div>
                       </div>
                     </div>
                   </div>
